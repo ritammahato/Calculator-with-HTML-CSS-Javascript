@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(138, 221, 253);
+    font-family: sans-serif;
+}
+.container {
+    text-align: center;
+    background-color: rgb(138, 221, 253);
+
+}
+
+input#screen {
+    width: 30%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    
+    font-size: 2rem;
+    background-color: #00ff44;
+    box-shadow: 10px 10px 18px -2px rgba(2, 80, 9, 0.822);
+    color: #000;
+    text-align: left; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+table {
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(5, 5, 219);
+
+    width: 25%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: rgb(12, 2, 100);
+    box-shadow: 10px 10px 18px -2px rgb(9, 3, 94);
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: rgb(115, 236, 245);
+    color: black;
+    margin: 10px;
+  }
+
+button:hover {
+    cursor:pointer;
+    background-color:rgb(0, 255, 85);
+}
